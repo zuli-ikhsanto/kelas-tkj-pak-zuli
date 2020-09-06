@@ -52,11 +52,10 @@
 
   .btn {
     width: 20%;
-	padding: 5px;
   }
   
   .lesson-wrapper {
-	height: 800px;
+	height: 200%;
   }
 
   
@@ -78,6 +77,6 @@
   }
   
   .heading h3 {
-	  font-size-adjust: 25%;
+	  font-size: 8px;
   }
 }
