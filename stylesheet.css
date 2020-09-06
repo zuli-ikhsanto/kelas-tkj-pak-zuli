@@ -15,6 +15,7 @@ a {
 
 .top-wrapper {
   width: 100%;
+  padding: 65px;
   background-image: url(./images/tlj.jpg);
   background-size: cover;
   color: white;
@@ -137,6 +138,7 @@ header {
 }
 
 .heading h2 {
+  margin-top: 0;
   font-weight: normal;
   text-align: center;
 }
@@ -144,7 +146,7 @@ header {
 /* Tambahkan CSS untuk lesson */
 .lesson {
   float: left;
-  width: 100%;
+  width: 25%;
 }
 
 .lesson-icon {
