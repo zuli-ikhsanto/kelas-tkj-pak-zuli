@@ -126,6 +126,7 @@ header {
 }
 
 .lesson-wrapper {
+  width: 100%;
   height: 400px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
@@ -196,6 +197,7 @@ header {
 }
 
 .message-wrapper {
+  width: 100%;	
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
@@ -216,6 +218,12 @@ header {
   box-shadow: none;
 }
 
+footer {
+  width: 100%  
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
 /* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
 footer p {
   color: #b3aeb5;
@@ -225,10 +233,4 @@ footer p {
 footer a {
   color: blue;
   font-size: 12px;
-}
-
-/* Tambahkan CSS untuk tag <footer> */
-footer {
-  padding: 20px;
-  background-color: #f7f7f7;
 }
