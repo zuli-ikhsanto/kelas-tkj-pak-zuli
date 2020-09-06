@@ -55,6 +55,14 @@
 
   }
   
+  .lesson-icon img {
+	  size:25%;
+  }
+  
+  .lesson-icon p {
+	  font-size-adjust: 25%;
+  }
+
   .lesson {
     width: 100%;
   }
