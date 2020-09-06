@@ -32,6 +32,10 @@
 	width: 100%;  
     text-align: center;
   }
+ 
+  .container heading {
+	height: 100%;  
+  }
   
   .btn {
     width: 50%;
@@ -66,7 +70,7 @@
   }  
 
   .btn {
-    width: 75%;
+    width: 85%;
   }
   
   .lesson-wrapper {
