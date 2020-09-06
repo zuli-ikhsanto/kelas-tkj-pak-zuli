@@ -51,9 +51,14 @@
   }  
 
   .btn {
-    width: 100%;
+    width: 75%;
 
   }
+  
+  .lesson-wrapper {
+	height: 800px;
+  }
+
   
   .lesson-icon img {
 	  size:25%;
@@ -71,4 +76,7 @@
 	width: 100%;  
     text-align: center;
   }
+  
+  .heading h3 {
+	  font-size-adjust: 25%;
 }
