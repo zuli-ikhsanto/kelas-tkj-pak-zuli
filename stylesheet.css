@@ -15,7 +15,8 @@ a {
 
 .top-wrapper {
   width: 100%;
-  padding: 65px;
+  top: 65px;
+  padding: 60px;
   background-image: url(./images/tlj.jpg);
   background-size: cover;
   color: white;
