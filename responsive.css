@@ -14,6 +14,14 @@
     float: left;
   }
 
+  .container {
+    text-align: center;
+    width: max-width;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+
 }
 
 /* Untuk Smartphone */
@@ -37,15 +45,18 @@
   }  
 
   .btn {
-    width: 100%;
+    width: 50%;
 
   }
   
   .lesson {
-    width: 100%;
+    width: 25%;
   }
   
   .container {
     text-align: center;
+    width: max-width;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }
