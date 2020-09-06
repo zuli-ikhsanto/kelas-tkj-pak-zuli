@@ -201,6 +201,7 @@ header {
 }
 
 .message {
+  margin: 5px;	
   padding: 20px 40px;
   background-color: #5dca88;
   cursor: pointer;
