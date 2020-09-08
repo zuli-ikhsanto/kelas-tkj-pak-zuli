@@ -31,7 +31,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(tlj.jpg);
+  background-image: url(./images/tlj.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -40,26 +40,45 @@ a {
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+.top-wrapper h1:hover {
+  opacity: 1;
+  letter-spacing: 15px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+  font-size: 36px;
   letter-spacing: 5px;
   margin-bottom: 10px;
+  color: white;
 }
 
+.top-wrapper h2:hover {
+  opacity: 1;
+}
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 1;
   margin-bottom: 3px;
+  color: white;
 }
 
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
+.btn-wrapper img {
+  width: 65px;
+  height: 65px;
+  opacity: 0.7;
 }
 
-.btn-wrapper p {
-  margin: 10px 0;
+.btn-wrapper img:hover {
+  opacity: 0.9;
 }
 
-.wa {
-  background-color: #239b76;
+.btn-wrapper img:active {
+  opacity: 1;
 }
 
 .btn {
@@ -67,16 +86,13 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.8;
-  border-radius: 4px;
+  border-radius: 24px;
   text-align: center;
+  margin: 10px;
 }
 
 .btn:hover {
   opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
 }
 
 header {
@@ -88,13 +104,14 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 0px;
-}
-
 .header-left {
   float: left;
+}
+
+.header-left img {
+  float: left;
+  height: 65px;
+  width: 250px;
 }
 
 .header-right {
@@ -142,6 +159,18 @@ header {
   position: relative;
 }
 
+.lesson-icon img:hover {
+  opacity: 0.7;
+}
+
+.lesson-icon img {
+  opacity: 0.5;
+}
+
+.lesson-icon img:active {
+  opacity: 1;
+}
+
 .lesson-icon p {
   position: absolute;
   top: 44%;
@@ -178,10 +207,6 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
-}
-
-footer img {
-  width: 125px;
 }
 
 footer p {

@@ -14,6 +14,9 @@
     float: left;
   }
 
+  .btn {
+    width: 75%;
+  }
 }
 
 /* Untuk Smartphone */
@@ -31,14 +34,18 @@
     line-height: 36px;
   }  
 
+  .top-wrapper h2 {
+    font-size: 20px;
+    line-height: 36px;
+  }  
+
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
   }  
 
   .btn {
-    width: 100%;
-
+    width: 75%;
   }
   
   .lesson {
