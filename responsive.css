@@ -30,11 +30,13 @@
 /* Untuk Smartphone */
 @media (max-width: 670px) {
   header {
-    height: 50%;
+    height: 35px;
   }
 
-.header-left img {
-  size: 50%;
+  .header-left img {
+    float: left;
+    height: 35px;
+    width: 120px;
 }
 	
   .header-right {
