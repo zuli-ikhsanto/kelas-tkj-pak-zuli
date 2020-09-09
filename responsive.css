@@ -43,6 +43,9 @@
     display: block;
   }
 
+  .header-right a {
+    line-height: 17px;
+  }
   .top-wrapper h1 {
     font-size: 36px;
     line-height: 36px;
