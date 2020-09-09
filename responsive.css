@@ -29,6 +29,14 @@
 
 /* Untuk Smartphone */
 @media (max-width: 670px) {
+  header {
+    height: 50%;
+  }
+
+.header-left img {
+  size: 50%;
+}
+	
   .header-right {
     display: block;
   }
