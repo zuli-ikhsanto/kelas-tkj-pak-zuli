@@ -44,12 +44,12 @@ a {
   margin-bottom: 10px;
   color: yellow;
   text-shadow: 3px 2px 1px grey;  
-  transition: letter-spacing 2s;
 }
 
 .top-wrapper h1:hover {
   opacity: 1;
   letter-spacing: 15px;
+  transition: letter-spacing 2s;  
 }
 
 .top-wrapper h2 {
